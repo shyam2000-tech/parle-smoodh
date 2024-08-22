@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(3, 3, 37);
+    position: fixed;
+    height: 70px;
+    width: 100%;    
+}
+section{
+    overflow: hidden;
+}
+.leaf-img{
+    position: absolute;
+    left: 50%;
+    width: 190px;
+    transform: translatex(-50%);
+    top: 20%;
+}
+.img-responsive{
+    height: auto;
+    max-width: 100%; 
+}
+.bg-color{
+    position: relative;
+}
+.no-padd{
+    padding-left: 0;
+    padding-right: 0;
+}
+.text{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.content{
+    text-align: start;
+    padding: 134px;
+    min-height: 828px;
+}
+#box{
+    background-color: rgb(47, 193, 222);
+    z-index: -1;
+    min-height: 828px;
+    display: flex;
+    align-items: center;
+}
+.text-white-one{
+    font-size: 4rem;
+    font-family: fangsong ;
+    z-index: 3;
+    color:#812529;
+}
+.hover:hover {
+    color: #c60a0a; /* Darker blue */
+  }
